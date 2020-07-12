@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    font-size: 60px;
+    justify-content: center;
+    font-family: "Comic Sans MS";
+    background: linear-gradient(-45deg, #006699, #6F116F, #FF9966, #90EE90);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
